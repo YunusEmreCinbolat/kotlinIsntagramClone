@@ -7,7 +7,7 @@ plugins {
 android {
     namespace = "com.example.instagramclone"
     compileSdk = 33
-
+    buildFeatures { viewBinding=true }
     defaultConfig {
         applicationId = "com.example.instagramclone"
         minSdk = 24
