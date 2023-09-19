@@ -2,18 +2,10 @@ package com.example.instagramclone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class FeedActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-    }
-    fun signIn(view:View){
-
-    }
-    fun signUp(view: View){
-
+        setContentView(R.layout.activity_feed)
     }
 }

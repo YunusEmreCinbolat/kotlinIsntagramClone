@@ -4,16 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class UploadActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_upload)
+    }
+    fun upLoad(view: View){
 
     }
-    fun signIn(view:View){
-
-    }
-    fun signUp(view: View){
-
-    }
+    fun selectImage(view: View){}
 }
